@@ -150,6 +150,7 @@ namespace Basic_Command
 					MessageBox.Show("Deleting food failed");
 				}
 
+
 				//đóng kết nối
 				conn.Close();
 				conn.Dispose();
