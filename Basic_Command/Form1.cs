@@ -228,5 +228,38 @@ namespace Basic_Command
 				foodFrm.LoadFood(Convert.ToInt32(txtID.Text));
 			}
 		}
+
+		private void btnBills_Click(object sender, EventArgs e)
+		{
+			BillForm billfrm = new BillForm();
+			billfrm.Show();
+			billfrm.LoadBills();
+		}
+
+		private void xemBanToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void tableToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			TableForm frm = new TableForm();
+			frm.Show(this);
+			frm.LoadTable();
+		}
+
+		private void accountToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			AccountManager frm = new AccountManager();
+			frm.Show(this);
+			frm.LoadAccount();
+		}
+
+		private void billsToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			BillForm billForm = new BillForm();
+			billForm.Show(this);
+			billForm.LoadBills();
+		}
 	}
 }

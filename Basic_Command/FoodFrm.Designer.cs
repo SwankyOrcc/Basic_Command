@@ -49,6 +49,7 @@ namespace Basic_Command
 			// 
 			// btnUpdate
 			// 
+			this.btnUpdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnUpdate.Location = new System.Drawing.Point(789, 12);
 			this.btnUpdate.Name = "btnUpdate";
@@ -60,6 +61,7 @@ namespace Basic_Command
 			// 
 			// btnDelete
 			// 
+			this.btnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnDelete.Location = new System.Drawing.Point(789, 78);
 			this.btnDelete.Name = "btnDelete";
